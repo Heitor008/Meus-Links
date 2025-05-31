@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+body{
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Cinzel';
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+    min-width:375px;
+    max-width:700px;
+}
+
+header > h1{
+    margin: auto;
+    text-align: center;
+    gap: 10px;
+    
+}
+
+h1{
+    padding-right: 5px;
+    flex-wrap: wrap;
+}
+
+.perfil{
+   width:150px;
+   border-radius: 10px;
+}
+
+article{
+    background-image: linear-gradient(to top, #ffffff27 0%, rgb(255, 255, 255) 100%);
+    margin: auto;
+    padding: 10px;
+    
+    min-width:375px;
+    max-width:700px;
+    height:auto;
+    border-radius: 20px;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    text-indent: 60px;
+    text-align: justify;
+    font-size: 1.2em;
+    font-family:'Playfair Display';
+    font-style: bold;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 2em;
+}
+
+a:hover{
+    background-color:  #000000;
+    color: white;
+    text-decoration: underline;
+}
+
+div > a{
+    color:  rgb(0, 0, 0);;
+    display: block;
+    width: 200px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Cinzel';
+    font-size: 25px;
+}
+
